@@ -21,6 +21,7 @@ GRAMMAR_NAME=placa
 # Diret´orio para aonde v˜ao os arquivos gerados
 GEN_PATH=lexer
 
+FILE= 'file.txt'
 # Executa o ANTLR e o compilador Java
 all: antlr javac
 	@echo "Done."
