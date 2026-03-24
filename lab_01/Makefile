@@ -3,9 +3,9 @@ JAVAC=javac
 # Comando da JVM
 JAVA=java
 
-ROOT=/home/rcdornelas
+ROOT=/home/casantos
 # Caminho para o JAR do ANTLR em labs/tools
-ANTLR_PATH=$(ROOT)/Downloads/Compiladores-Exerc-cios/tools/antlr-4.13.2-complete.jar
+ANTLR_PATH=$(ROOT)/Compiladores-UFES/tools/antlr-4.13.2-complete.jar
 # Opc¸˜ao de configurac¸˜ao do CLASSPATH para o ambiente Java
 CLASS_PATH_OPTION=-cp .:$(ANTLR_PATH)
 # Configurac¸˜ao do comando de compilac¸˜ao do ANTLR
