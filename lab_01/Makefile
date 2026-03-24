@@ -1,3 +1,7 @@
+# export CLASSPATH=".:/home/casantos/Compiladores-UFES/tools/antlr-4.13.2-complete.jar:$CLASSPATH"
+# alias antlr4='java -jar /home/casantos/Compiladores-UFES/tools/antlr-4.13.2-complete.jar'
+# alias grun='java org.antlr.v4.gui.TestRig'
+
 # Comando do compilador Java
 JAVAC=javac
 # Comando da JVM
@@ -13,7 +17,7 @@ ANTLR4=$(JAVA) -jar $(ANTLR_PATH)
 # Configurac¸˜ao do ambiente de teste do ANTLR
 GRUN=$(JAVA) $(CLASS_PATH_OPTION) org.antlr.v4.gui.TestRig
 # Nome da gram´atica
-GRAMMAR_NAME=gramatica
+GRAMMAR_NAME=placa
 # Diret´orio para aonde v˜ao os arquivos gerados
 GEN_PATH=lexer
 
