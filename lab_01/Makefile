@@ -17,7 +17,7 @@ ANTLR4=$(JAVA) -jar $(ANTLR_PATH)
 # Configurac¸˜ao do ambiente de teste do ANTLR
 GRUN=$(JAVA) $(CLASS_PATH_OPTION) org.antlr.v4.gui.TestRig
 # Nome da gram´atica
-GRAMMAR_NAME=placa
+GRAMMAR_NAME=ezlang
 # Diret´orio para aonde v˜ao os arquivos gerados
 GEN_PATH=lexer
 

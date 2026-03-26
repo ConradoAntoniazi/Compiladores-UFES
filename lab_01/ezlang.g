@@ -3,6 +3,9 @@ lexer grammar ezlang;
 fragment DIGITS: [0-9]+;
 fragment LETTERS: [a-zA-Z]+;
 
+WS : [ \r\n\t]+ -> skip;
+COMMENTS : '{' ~[}]* '}' -> skip;
+
 ASSIGN : ':=' ;
 COMPARE : '=';
 PLUS : '+' ;
@@ -12,6 +15,7 @@ OVER : '/' ;
 LESS : '<' ;
 L_PAR : '(' ;
 R_PAR : ')' ;
+DOT_COMMA : ';';
 
 PROGRAM : 'program';
 VAR : 'var';
@@ -40,4 +44,4 @@ INT_VAL : DIGITS ;
 REAL_VAL : DIGITS '.' DIGITS ;
 
 STRING_VAL : '"' ~["]* '"' ;
-ID : LETTERS DIGITS;
+ID : LETTERS;
